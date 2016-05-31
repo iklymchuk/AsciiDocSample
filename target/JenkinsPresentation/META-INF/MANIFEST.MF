@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Built-By: iklymchuk
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_77
+Extension-Name: JenkinsPresentation
+Specification-Title: TODO
+Implementation-Title: JenkinsPresentation
+Implementation-Version: 1.0-SNAPSHOT
+Group-Id: com.klymchuk
+Short-Name: JenkinsPresentation
+Long-Name: TODO Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/TODO+Plugin
+Plugin-Version: 1.0-SNAPSHOT (private-05/31/2016 14:16-iklymchuk)
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Developers: 
+

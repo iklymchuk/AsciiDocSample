@@ -1,0 +1,5 @@
+com/klymchuk/JenkinsPresentation/HelloWorldBuilder.stapler
+com/klymchuk/JenkinsPresentation/HelloWorldBuilder/DescriptorImpl/doCheckName.stapler
+com/klymchuk/JenkinsPresentation/HelloWorldBuilder$DescriptorImpl.class
+com/klymchuk/JenkinsPresentation/HelloWorldBuilder.class
+META-INF/annotations/hudson.Extension
