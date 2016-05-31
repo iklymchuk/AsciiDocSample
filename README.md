@@ -1,14 +1,6 @@
-##Requirements.
+##Sample Jenkins Plugin configuration
 
-JDK: jdk1.7.0_79.jdk
-Maven: apache-maven-3.3.3
-Jenkins: Installation
-IDE: IntelliJ IDEA 14.1.4
-
-Official: https://wiki.jenkins-ci.org/display/JENKINS/Plugin+tutorial
-
-
-1. Update maven settings
+Maven configuration should be ubdated as bellow:
 
  ```   cat /home/iklymchuk/.m2/settings.xml ```
 ```
@@ -41,12 +33,19 @@ Official: https://wiki.jenkins-ci.org/display/JENKINS/Plugin+tutorial
   </profiles>
 </settings>
 ```
+Then we can started:
 
-2. ```mvn -U org.jenkins-ci.tools:maven-hpi-plugin:create```
+1. Go to workspace
 
-3. ```cd newly-created-directory```
+   ```mvn -U org.jenkins-ci.tools:maven-hpi-plugin:create```
+   
+   and set up artifactId and projectId
+
+2. ```cd newly-created-directory```
    ```mvn package```
 
-4. ```mvn install```
+3. ```mvn install```
 
-5. ```mvn hpi:run```
+4. ```mvn hpi:run```
+
+If all configured correctly you will see Jenkins home here ```localhost:8080/jenkins```
