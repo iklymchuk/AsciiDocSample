@@ -2,9 +2,10 @@ Sample Jenkins Plugin configuration
 
 Maven configuration should be ubdated as bellow:
 
-```cat /home/iklymchuk/.m2/settings.xml```
- 
- ```
+```
+cat /home/iklymchuk/.m2/settings.xml
+
+
  <settings>
   <localRepository>/home/iklymchuk/.m2/repository/</localRepository>
   <pluginGroups>
@@ -38,7 +39,9 @@ Then we can started:
 
 1. Go to workspace 
 
-```mvn -U org.jenkins-ci.tools:maven-hpi-plugin:create```
+```
+mvn -U org.jenkins-ci.tools:maven-hpi-plugin:create
+```
 
 and set up artifactId and projectId
 
