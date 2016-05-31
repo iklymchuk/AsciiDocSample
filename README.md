@@ -1,4 +1,5 @@
-Requirements:
+##Requirements.
+
 JDK: jdk1.7.0_79.jdk
 Maven: apache-maven-3.3.3
 Jenkins: Installation
@@ -9,8 +10,8 @@ Official: https://wiki.jenkins-ci.org/display/JENKINS/Plugin+tutorial
 
 1. Update maven settings
 
-    cat /home/iklymchuk/.m2/settings.xml
-
+ ```   cat /home/iklymchuk/.m2/settings.xml ```
+```
 <settings>
   <localRepository>/home/iklymchuk/.m2/repository/</localRepository>
   <pluginGroups>
@@ -39,12 +40,13 @@ Official: https://wiki.jenkins-ci.org/display/JENKINS/Plugin+tutorial
     </profile>
   </profiles>
 </settings>
+```
 
-2. mvn -U org.jenkins-ci.tools:maven-hpi-plugin:create
+2. ```mvn -U org.jenkins-ci.tools:maven-hpi-plugin:create```
 
-3. cd newly-created-directory
-   mvn package
+3. ```cd newly-created-directory```
+   ```mvn package```
 
-4. mvn install
+4. ```mvn install```
 
-5. mvn hpi:run
+5. ```mvn hpi:run```
